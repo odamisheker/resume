@@ -2,6 +2,12 @@
   margin: 0 auto;
   border: 3px black solid;
   border-radius: 25px;
-  width: 70rem;
+  width: 68vw;
   height: 80rem;
+  background-color: white;
+}
+
+.line {
+  width: 59.5vw;
+  margin-top: 2rem;
 }

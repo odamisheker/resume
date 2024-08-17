@@ -1,0 +1,29 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.specialty {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 1.5rem;
+  gap: 10rem;
+}
+
+.workplace {
+  font-size: 1rem;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.description {
+    margin-top: 1rem;
+    width: 40rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}

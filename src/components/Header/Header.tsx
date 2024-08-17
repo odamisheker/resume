@@ -1,7 +1,7 @@
 import { BsTelegram } from "react-icons/bs";
 import styles from "./Header.module.css";
 import { FaGithub } from "react-icons/fa6";
-import { MdLocationOn } from "react-icons/md";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 
 export default function Header() {
   return (
@@ -12,18 +12,32 @@ export default function Header() {
         <div className={styles.photo}></div>
       </div>
       <div className={styles.socials}>
-        <div className={styles.telegram}>
-          <BsTelegram className={styles.icon}/>
+        <div
+          className={styles.telegram}
+          onClick={() => {
+            window.location.href = "https://t.me/odamisheker";
+          }}
+        >
+          <BsTelegram className={styles.icon} />
           @odamisheker
         </div>
-        <div className={styles.github}>
-          <FaGithub className={styles.icon}/>
+        <div
+          className={styles.github}
+          onClick={() => {
+            window.location.href = "https://github.com/odamisheker";
+          }}
+        >
+          <FaGithub className={styles.icon} />
           @odamisheker
         </div>
         <div className={styles.location}>
-            <MdLocationOn className={styles.icon}/>
-            Minsk, Belarus
+          <MdLocationOn className={styles.icon} />
+          Minsk, Belarus
         </div>
+        {/* <div className={styles.email}>
+          <MdEmail className={styles.icon}/>
+          odamisheker@proton.me
+        </div> */}
       </div>
     </div>
   );
