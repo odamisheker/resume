@@ -1,7 +1,7 @@
 import { BsTelegram } from "react-icons/bs";
 import styles from "./Header.module.css";
 import { FaGithub } from "react-icons/fa6";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+import { MdLocationOn } from "react-icons/md";
 
 export default function Header() {
   return (
@@ -31,7 +31,7 @@ export default function Header() {
           @odamisheker
         </div>
         <div className={styles.location}>
-          <MdLocationOn className={styles.icon} />
+          <MdLocationOn className={styles.iconMap} />
           Minsk, Belarus
         </div>
         {/* <div className={styles.email}>

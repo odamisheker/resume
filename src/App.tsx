@@ -9,6 +9,7 @@ export default function App() {
       <Header/>
       <hr className={styles.line}/>
       <Body/>
+      <hr className={styles.line}/>
     </div>
   )
 }

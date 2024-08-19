@@ -34,19 +34,24 @@
 .socials {
   height: 18rem;
   margin-left: 25vw;
-  margin-top: 1rem;
+  margin-top: 4.4rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   border-left: 1px black solid;
   padding-left: 2rem;
-  padding-top: 4.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon {
-  width: 3.5vw;
-  height: 6vh;
-  padding-right: 0.5rem;
+.icon, .iconMap {
+  width: 3rem;
+  height: 3rem;
+  padding-right: 0.4rem;
+}
+
+.iconMap {
+    margin-left: -0.3rem;
 }
 
 .telegram,
@@ -56,9 +61,10 @@
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
+
 
 .location {
   cursor: auto;

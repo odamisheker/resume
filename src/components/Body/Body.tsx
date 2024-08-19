@@ -1,5 +1,4 @@
 import styles from "./Body.module.css";
-import headerStyles from "../Header/Header.module.css";
 
 export default function Body() {
   const hardSkills = [
@@ -19,11 +18,11 @@ export default function Body() {
     "Good time management",
     "Effective communication",
     "Friendliness",
-    "Good sociability"
-  ]
-  
+    "Good sociability",
+  ];
+
   return (
-    <div className={headerStyles.container}>
+    <div className={styles.container}>
       <div className={styles.contents}>
         Work Experience
         <div className={styles.specialty}>
@@ -48,7 +47,47 @@ export default function Body() {
           </ul>
         </div>
       </div>
-      <div className={styles.addInfo}></div>
+      <div className={styles.addInfo}>
+        <div className={styles.header}>
+          Education
+          <div className={styles.subtitle}>Belarussian State University</div>
+          <div className={styles.uniSpecialty}>
+            Mathematics and Information Technology
+          </div>
+          <div className={styles.eduTerms}>2022 - present</div>
+        </div>
+        <div className={styles.header}>
+          Certificates
+          <div className={styles.subtitle}>AWS</div>
+        </div>
+        <div className={styles.header}>
+          Skills
+          <div className={styles.subtitle}>
+            Hard skills
+            {hardSkills.map((skill, index) => (
+              <ul>
+                <li className={styles.description} key={index}>
+                  {skill}
+                </li>
+              </ul>
+            ))}
+          </div>
+          <div className={styles.subtitle}>
+            Soft skills
+            {softSkills.map((skill, index) => (
+                <ul>
+                    <li className={styles.description} key={index}>
+                        {skill}
+                    </li>
+                </ul>
+            ))}
+            </div>
+            <div className={styles.header}>Languages
+                <div className={styles.subtitle}>Russian (Native)</div>
+                <div className={styles.subtitle}>English (B1+)</div>
+            </div>
+        </div>
+      </div>
     </div>
   );
 }

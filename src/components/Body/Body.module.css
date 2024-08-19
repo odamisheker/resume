@@ -1,9 +1,17 @@
+.container {
+  font-family: Ubuntu;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+  margin-top: 3.5rem;
+}
+
 .contents {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .specialty {
@@ -12,7 +20,7 @@
   flex-direction: row;
   font-weight: 500;
   font-size: 1.5rem;
-  gap: 10rem;
+  gap: 8rem;
 }
 
 .workplace {
@@ -22,8 +30,36 @@
 }
 
 .description {
-    margin-top: 1rem;
-    width: 40rem;
-    font-weight: 400;
-    font-size: 1.5rem;
+  margin-top: 1rem;
+  width: 40rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.addInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10.75vw;
+  border-left: 1px black solid;
+  padding-left: 3rem;
+  gap: 3rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.uniSpecialty,
+.eduTerms {
+  font-weight: 500;
+  font-size: 1rem;
 }
