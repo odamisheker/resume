@@ -12,6 +12,8 @@ export default function Body() {
     "Microsoft SQL Server",
     "MondoDB",
     "Basic Python",
+    "Figma",
+    "Basic Java",
   ];
 
   const softSkills = [
@@ -37,13 +39,18 @@ export default function Body() {
           </a>
         </div>
         <div className={styles.description}>
-          Take part in the development of the Web3 Start-Up. Used such
-          technologies as: React + Typescript + Vite, Telegram SDK, Telegram
-          Mini Apps, framer-motion and other libraries. Made a “Thank You”
-          window, redesigned a referral drawer, fix UI, worked with API.
+          Take part in the development of the Web3 Start-Up. My task was
+          developming the telegram-bot which was used for minting in the
+          project. Created a “Thank You” window, redesigned a referral drawer, fix
+          UI. Used such technologies as: React + Typescript + Vite, Ton
+          Blockchain, Telegram SDK, Telegram Mini Apps, framer-motion and
+          other libraries, worked with API.
           <ul>
             <li>Refactoring of the code.</li>
             <li>Add new features.</li>
+            <li>Designing user interfaces.</li>
+            <li>Optimization</li>
+            <li>Cross-browser and adaptive layout</li>
           </ul>
         </div>
       </div>
@@ -75,17 +82,18 @@ export default function Body() {
           <div className={styles.subtitle}>
             Soft skills
             {softSkills.map((skill, index) => (
-                <ul>
-                    <li className={styles.description} key={index}>
-                        {skill}
-                    </li>
-                </ul>
+              <ul>
+                <li className={styles.description} key={index}>
+                  {skill}
+                </li>
+              </ul>
             ))}
-            </div>
-            <div className={styles.header}>Languages
-                <div className={styles.subtitle}>Russian (Native)</div>
-                <div className={styles.subtitle}>English (B1+)</div>
-            </div>
+          </div>
+          <div className={styles.header}>
+            Languages
+            <div className={styles.subtitle}>Russian (Native)</div>
+            <div className={styles.subtitle}>English (B1)</div>
+          </div>
         </div>
       </div>
     </div>

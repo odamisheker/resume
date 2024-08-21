@@ -2,12 +2,14 @@
   margin: 0 auto;
   border: 3px black solid;
   border-radius: 25px;
-  width: 68vw;
-  height: 170vh;
+  width: 74rem;
+  height: 94rem;
   background-color: white;
+  /* box-shadow:
+    10px 10px 15px 1px rgba(143, 141, 141, 0.3),
+    inset 0px 0px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .line {
   width: 59.5vw;
-  margin-top: 2rem;
 }

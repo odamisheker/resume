@@ -4,6 +4,7 @@
   margin-top: 2rem;
   flex-direction: row;
   font-family: Ubuntu;
+  height: 21rem;
 }
 
 .myInfo {
@@ -14,39 +15,39 @@
 .name,
 .specialty {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .specialty {
   margin-top: 0.4rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-left: 0.2rem;
 }
 
 .photo {
   margin-left: 0.2rem;
   margin-top: 2rem;
-  width: 248px;
-  height: 248px;
+  width: 200px;
+  height: 200px;
   background: #d9d9d9;
 }
 
 .socials {
-  height: 18rem;
-  margin-left: 25vw;
-  margin-top: 4.4rem;
+  height: 16rem;
+  margin-left: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   border-left: 1px black solid;
   padding-left: 2rem;
   align-items: center;
   justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .icon, .iconMap {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   padding-right: 0.4rem;
 }
 
@@ -61,11 +62,19 @@
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 
 .location {
   cursor: auto;
+}
+
+.myDesc {
+margin-left: 15rem;
+width: 25rem;
+height: auto;
+margin-top: -12.5rem;
+font-size: 1rem;
 }

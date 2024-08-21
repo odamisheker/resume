@@ -11,7 +11,7 @@
   flex-direction: column;
   gap: 0.5rem;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .specialty {
@@ -19,34 +19,34 @@
   display: flex;
   flex-direction: row;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1rem;
   gap: 8rem;
 }
 
 .workplace {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: auto;
   cursor: pointer;
 }
 
 .description {
   margin-top: 1rem;
-  width: 40rem;
+  width: 35rem;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .addInfo {
   display: flex;
   flex-direction: column;
-  margin-left: 10.75vw;
+  margin-left: 8rem;
   border-left: 1px black solid;
   padding-left: 3rem;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .header {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
 
 .subtitle {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .uniSpecialty,
