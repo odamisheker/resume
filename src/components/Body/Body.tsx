@@ -45,7 +45,7 @@ export default function Body() {
           UI. Used such technologies as: React + Typescript + Vite, Ton
           Blockchain, Telegram SDK, Telegram Mini Apps, framer-motion and
           other libraries, worked with API.
-          <ul>
+          <ul className={styles.list}>
             <li>Refactoring of the code.</li>
             <li>Add new features.</li>
             <li>Designing user interfaces.</li>
@@ -72,7 +72,7 @@ export default function Body() {
           <div className={styles.subtitle}>
             Hard skills
             {hardSkills.map((skill, index) => (
-              <ul>
+              <ul className={styles.list}>
                 <li className={styles.description} key={index}>
                   {skill}
                 </li>
@@ -82,7 +82,7 @@ export default function Body() {
           <div className={styles.subtitle}>
             Soft skills
             {softSkills.map((skill, index) => (
-              <ul>
+              <ul className={styles.list}>
                 <li className={styles.description} key={index}>
                   {skill}
                 </li>

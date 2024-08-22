@@ -11,5 +11,16 @@
 }
 
 .line {
-  width: 59.5vw;
+  width: 64rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 22rem;
+    height: 147rem;
+  }
+
+  .line {
+    width: 20rem;
+  }
 }

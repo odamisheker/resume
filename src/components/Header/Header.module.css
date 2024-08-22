@@ -27,8 +27,8 @@
 .photo {
   margin-left: 0.2rem;
   margin-top: 2rem;
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   background: #d9d9d9;
 }
 
@@ -45,14 +45,15 @@
   margin-top: 1.5rem;
 }
 
-.icon, .iconMap {
+.icon,
+.iconMap {
   width: 2.5rem;
   height: 2.5rem;
   padding-right: 0.4rem;
 }
 
 .iconMap {
-    margin-left: -0.3rem;
+  margin-left: -0.3rem;
 }
 
 .telegram,
@@ -66,15 +67,52 @@
   cursor: pointer;
 }
 
-
 .location {
   cursor: auto;
 }
 
 .myDesc {
-margin-left: 15rem;
-width: 25rem;
-height: auto;
-margin-top: -12.5rem;
-font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 2.35rem;
+  width: 25rem;
+  height: auto;
+  font-size: 1rem;
+}
+
+.myPhoto {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .specialty {
+    font-size: 1.2rem;
+  }
+
+  .myDesc {
+    margin-left: 0rem;
+    width: 15rem;
+  }
+
+  .myPhoto {
+    flex-direction: column;
+  }
+
+  .container {
+    height: 47rem;
+    flex-direction: column;
+  }
+
+  .socials {
+    margin-left: 0rem;
+    padding-left: 0rem;
+    justify-content: flex-start;
+    width: 10rem;
+    border: none;
+    gap: 0.8rem;
+  }
 }
