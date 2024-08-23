@@ -15,8 +15,9 @@ export default function Header() {
             I'm 19-years old student of BSU, MMF, who is looking for an
             intership in DevOps. I'm a beginner in this field and I believe that
             DevOps is a promising field. Work well in teams and in large groups.
-            My goal - is to use all my knowledge and skills to solve the problem
-            and also gain new knowledge and skills which I'll use in the future.
+            My goal - is to use all my knowledge and skills to solve the
+            problem, also gain new knowledge and skills which I'll use in the
+            future.
           </a>
         </div>
       </div>

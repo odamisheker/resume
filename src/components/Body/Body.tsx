@@ -1,4 +1,8 @@
 import styles from "./Body.module.css";
+import AdvancedTesting from "./certificates/AdvancedTesting.pdf";
+import CLI from "./certificates/CLI.pdf";
+import GettingStarted from "./certificates/GettingStarted.pdf";
+import ImproveCodeQuality from "./certificates/ImproveCodeQuality.pdf";
 
 export default function Body() {
   const hardSkills = [
@@ -41,10 +45,10 @@ export default function Body() {
         <div className={styles.description}>
           Take part in the development of the Web3 Start-Up. My task was
           developming the telegram-bot which was used for minting in the
-          project. Created a “Thank You” window, redesigned a referral drawer, fix
-          UI. Used such technologies as: React + Typescript + Vite, Ton
-          Blockchain, Telegram SDK, Telegram Mini Apps, framer-motion and
-          other libraries, worked with API.
+          project. Created a “Thank You” window, redesigned a referral drawer,
+          fix UI. Used such technologies as: React + Typescript + Vite, Ton
+          Blockchain, Telegram SDK, Telegram Mini Apps, framer-motion and other
+          libraries, worked with API.
           <ul className={styles.list}>
             <li>Refactoring of the code.</li>
             <li>Add new features.</li>
@@ -65,7 +69,43 @@ export default function Body() {
         </div>
         <div className={styles.header}>
           Certificates
-          <div className={styles.subtitle}>AWS</div>
+          <div className={styles.subtitle}>
+            AWS
+            <div className={styles.certList}>
+              <a
+                href={CLI}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.cert}
+              >
+                AWS Command Line Interface (CLI) Basics
+              </a>
+              <a
+                href={AdvancedTesting}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.cert}
+              >
+                Advanced Testing Practices Using AWS DevOps Tools
+              </a>
+              <a
+                href={GettingStarted}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.cert}
+              >
+                Getting Started with DevOps on AWS
+              </a>
+              <a
+                href={ImproveCodeQuality}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.cert}
+              >
+                Improve Code Quality with Amazon CodeGuru Reviewer
+              </a>
+            </div>
+          </div>
         </div>
         <div className={styles.header}>
           Skills

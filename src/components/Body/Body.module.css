@@ -29,6 +29,10 @@
   cursor: pointer;
 }
 
+.workplace:hover {
+  color: #009a63;
+}
+
 .description {
   margin-top: 1rem;
   width: 35rem;
@@ -64,6 +68,25 @@
   font-size: 1rem;
 }
 
+.certList {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  width: 20rem;
+  gap: 0.5rem;
+}
+
+.cert {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.cert:hover {
+  color: #009a63;
+}
+
 @media (max-width: 1200px) {
   .container {
     flex-direction: column;
@@ -93,5 +116,9 @@
 
   .header {
     gap: 0.2rem;
+  }
+
+  .certList {
+    width: 16rem;
   }
 }
