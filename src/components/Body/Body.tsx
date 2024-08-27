@@ -14,10 +14,11 @@ export default function Body() {
     "HTML + CSS",
     "Networks",
     "Microsoft SQL Server",
-    "MondoDB",
+    "MongoDB",
     "Basic Python",
     "Figma",
     "Basic Java",
+    "Linux"
   ];
 
   const softSkills = [

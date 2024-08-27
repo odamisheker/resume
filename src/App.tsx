@@ -9,7 +9,7 @@ export default function App() {
       <Header/>
       <hr className={styles.line}/>
       <Body/>
-      <hr className={styles.line}/>
+      <hr className={styles.line2}/>
     </div>
   )
 }
