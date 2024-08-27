@@ -18,7 +18,7 @@ export default function Body() {
     "Basic Python",
     "Figma",
     "Basic Java",
-    "Linux"
+    "Linux",
   ];
 
   const softSkills = [
@@ -44,12 +44,12 @@ export default function Body() {
           </a>
         </div>
         <div className={styles.description}>
-          Take part in the development of the Web3 Start-Up. My task was
-          developming the telegram-bot which was used for minting in the
-          project. Created a “Thank You” window, redesigned a referral drawer,
-          fix UI. Used such technologies as: React + Typescript + Vite, Ton
-          Blockchain, Telegram SDK, Telegram Mini Apps, framer-motion and other
-          libraries, worked with API.
+          Took part in the development of the Web3 Start-Up. My task was
+          developing a Telegram-bot which was used for minting in the
+          project. Created a “Thank You” window, redesigned a referral drawer
+          and fixed various UI issues. Used such technologies as: React +
+          Typescript + Vite, Ton Blockchain, Telegram SDK, Telegram Mini Apps,
+          framer-motion and other libraries, worked with API.
           <ul className={styles.list}>
             <li>Refactoring of the code.</li>
             <li>Add new features.</li>
