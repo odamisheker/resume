@@ -3,14 +3,15 @@
   border: 3px black solid;
   border-radius: 25px;
   width: 74rem;
-  height: 103rem;
+  height: 104rem;
   background-color: white;
   /* box-shadow:
     10px 10px 15px 1px rgba(143, 141, 141, 0.3),
     inset 0px 0px 10px rgba(0, 0, 0, 0.2); */
 }
 
-.line, .line2 {
+.line,
+.line2 {
   width: 64rem;
 }
 
@@ -18,13 +19,28 @@
   margin-top: 3rem;
 }
 
+.pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2rem;
+}
+
+.icon {
+  color: black;
+  font-size: 2rem;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 22rem;
-    height: 161rem;
+    height: 162rem;
   }
 
-  .line, .line2 {
+  .line,
+  .line2 {
     width: 20rem;
   }
 }

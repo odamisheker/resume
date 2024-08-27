@@ -54,8 +54,8 @@ export default function Body() {
             <li>Refactoring of the code.</li>
             <li>Add new features.</li>
             <li>Designing user interfaces.</li>
-            <li>Optimization</li>
-            <li>Cross-browser and adaptive layout</li>
+            <li>Optimization.</li>
+            <li>Cross-browser and adaptive layout.</li>
           </ul>
         </div>
       </div>
