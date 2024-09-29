@@ -8,14 +8,14 @@ export default function Header() {
     <div className={styles.container}>
       <div className={styles.myInfo}>
         <a className={styles.name}>Egor Klimov</a>
-        <a className={styles.specialty}>Intern DevOps Engineer</a>
+        <a className={styles.specialty}>Intern Front-end developer</a>
         <div className={styles.myPhoto}>
           <div className={styles.photo}></div>
           <a className={styles.myDesc}>
-            I'm a 19-years old student of BSU, Faculty of Mechanics and Mathematics, who is looking for an
-            intership in DevOps. I'm a beginner in this field and I believe that
-            DevOps is a promising field.I work well in teams and in large groups.
-            My goal is to apply all my knowledge and skills to solve the
+            Hi! I'm a 19-years old student of BSU, Faculty of Mechanics and
+            Mathematics, who is looking for an internship in Front-end. Also I'm
+            interested in the DevOps field. I work well in teams and in large
+            groups. My goal is to apply all my knowledge and skills to solve the
             problem and also gain new knowledge and skills which I'll use in the
             future.
           </a>
