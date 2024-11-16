@@ -19,6 +19,7 @@ export default function Body() {
     "Figma",
     "Basic Java",
     "Linux",
+    "Basic Nginx"
   ];
 
   const softSkills = [

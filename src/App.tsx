@@ -12,7 +12,7 @@ export default function App() {
       <hr className={styles.line}/>
       <Body/>
       <hr className={styles.line2}/>
-      <a className={styles.pdf} href={PDFResume} target="_blank" rel="noreferrer"><FaRegFilePdf className={styles.icon}/></a>
+      <a className={styles.pdf} href={`${PDFResume}#zoom=50`} target="_blank" rel="noreferrer"><FaRegFilePdf className={styles.icon}/></a>
     </div>
   )
 }
